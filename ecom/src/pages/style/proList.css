@@ -1,0 +1,24 @@
+.pro-list{
+    padding: 0px 0px;
+}
+.filter-list{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.filter-1{
+   
+}
+.filter-1 > select{
+    margin-left: 10px;
+    padding: 3px 8px;
+    font-weight: 400;
+}
+.filter-2{
+    margin-right: 30px;
+}
+.filter-2 > select{
+    margin-left: 10px;
+    padding: 2px 6px;
+    font-weight: 400;
+}

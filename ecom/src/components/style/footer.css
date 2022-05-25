@@ -1,0 +1,12 @@
+.footer{
+    z-index: 999;
+    padding: 0px 40px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 600;
+    background-color: #fcf5f5;
+    color: #87898A;
+}
+.social{
+   cursor: pointer;
+}

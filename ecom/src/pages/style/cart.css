@@ -1,0 +1,129 @@
+.wrapper{
+    padding: 10px 40px;
+}
+.title{
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.topButton{
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: #fff;
+    border: 1px solid grey;
+}
+.topButton:hover{
+    background-color: rgb(231, 231, 231);
+}
+.topTexts{
+  display: flex;
+}
+.topText{
+   text-decoration: underline;
+   cursor: pointer;
+   margin: 0px 10px;
+}
+.cart-bottom{
+  display: flex;
+  justify-content: space-between;
+}
+.cart-info{
+   flex:3
+}
+
+.cart-pro{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.cart-pro-detail{
+    flex: 2;
+    display: flex;
+}
+.cart-pro-img{
+    width: 200px;
+    height: 190px;
+}
+.cart-pro-detail-info{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.pro-colo{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: black;
+}
+.price-detail{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pro-ammounts{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.cart-amount{
+  font-size: 18px;
+  margin: 5px;
+  border: 1px solid gray;
+  padding: 4px 12px;
+  border-radius: 50%;
+}
+.act-price{
+  font-size: 34px;
+  font-weight: 500;
+  color: brown;
+}
+.hr{
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    background-color: #eee;
+    height: 1px;
+}
+
+.cart-summary{
+    flex:1;
+    border: 1px solid lightcoral;
+    border-radius: 10px;
+    padding: 20px;
+    height: 50vh;
+    margin-left: 4px;
+}
+.summary-title{
+    font-size: 22px;
+    font-weight: 600;
+}
+.summary-item{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.but-check{
+    width: 100%;
+    padding: 10px;
+    background-color: #4267B2;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    letter-spacing: 1.2px;
+}
+.but-check:hover{
+    background-color: #1654d0;
+}

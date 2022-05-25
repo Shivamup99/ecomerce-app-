@@ -1,0 +1,41 @@
+.cats{
+    display: grid;
+    grid-template-columns: repeat(3 , minmax(0,1fr));
+    padding: 0px 30px;
+    margin-bottom: 30px;
+}
+.cats-item{
+   position: relative;
+   height: 400px;
+   width: 95%;
+}
+.cats-img{
+      height: 100%;
+      width: 100%
+}
+.cats-info{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.cats-info > span{
+    font-size: 26px;
+    font-weight: 700;
+    color: whitesmoke;
+    letter-spacing: 1.1px;
+    margin-bottom: 15px;
+}
+.cats-info > button{
+    padding: 8px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: gray;
+    font-weight: 500;
+}

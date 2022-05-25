@@ -1,0 +1,103 @@
+.pro-info{
+    display: flex;
+    flex: 1;
+    padding: 40px 30px;
+}
+.pro-img{
+    flex: .4;
+}
+.pro-text-info{
+  flex: .6;
+  margin-top: -8px;
+}
+.pro-info-img{
+    height: 500px;
+    width: 90%;
+    border-radius: 4px;
+}
+.info-title{
+    font-size: 38px;
+    letter-spacing: 1.1px;
+    color: rgb(66 103 178);
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.info-desc{
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: rgb(122, 152, 213);
+    width: 96%;
+    margin-bottom: 14px;
+    font-size: small;
+}
+.info-price{
+    font-size: 42px;
+    color: rgb(180, 67, 67);
+    margin-bottom: 14px;
+}
+.info-clothes{
+  display: flex; 
+  justify-content: space-between;
+  width: 60%;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.info-color{
+    display: flex;
+    align-items: center;
+}
+.color-text{
+    margin-right: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.info-text{
+    display: flex;
+    align-items: center;
+}
+.filter-text{
+    margin-right: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.info-text > select{
+    padding: 2px 6px;
+}
+.add-clothes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+}
+.amount{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.amount > span{
+    border: 1px solid #898F9C;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    padding: 0px 8px;
+    text-align: center;
+}
+.amount-icon{
+    cursor: pointer;
+}
+
+.add-btn{
+    padding: 6px 12px;
+    border: 3px solid #4267B2;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.add-btn:hover{
+    background-color: #4267B2;
+    color: white;
+}
